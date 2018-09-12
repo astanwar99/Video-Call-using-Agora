@@ -42,7 +42,7 @@ let client = AgoraRTC.createClient({
 });
 
 //Initializing client
-client.init("cf3bf2d4ff274898b6b4f2266ff73a96", function(){
+client.init("<add your app id>", function(){
     console.log("Initialized successfully!");
 });
 
